@@ -1,0 +1,31 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-size: 20px;
+}
+.input {
+  background-color: none;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin: 5px 10px;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 7px;
+  border: none;
+}
+.btn:hover {
+  background-color: white;
+  color: #0a0131ab;
+  border-color: #0a0131ab;
+  cursor: pointer;
+}
+.contactform {
+  width: 260px;
+  padding: 20px;
+  display: block;
+  border-bottom: 3px double black;
+}
